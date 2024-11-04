@@ -36,7 +36,7 @@ const NavBar = () => {
                 <details className="dropdown">
                     <summary className="btn bg-white text-xl px-[13px] rounded-full relative">
                         <IoCartOutline />
-                        <span className="absolute -top-1 right-0 text-red-600 text-base bg-white z-10 rounded-full leading-none">0</span>
+                        <span className="absolute -top-1 right-0 text-red-600 text-base bg-white z-10 rounded-full leading-none px-[2px]">0</span>
                     </summary>
                     <ul className="menu dropdown-content bg-base-100 rounded-box z-[1] w-52 py-2 right-0 m-1 px-5 shadow">
                         <h5 className="text-base font-bold">1 Items in Cart</h5>
@@ -48,7 +48,7 @@ const NavBar = () => {
                 <details className="dropdown">
                     <summary className="btn bg-white text-xl px-[13px] rounded-full relative">
                         <FaRegHeart />
-                        <span className="absolute -top-1 right-0 text-red-600 text-base bg-white z-10 rounded-full leading-none">0</span>
+                        <span className="absolute -top-1 right-0 text-red-600 text-base bg-white z-10 rounded-full leading-none px-[2px]">0</span>
                     </summary>
                     <ul className="menu dropdown-content bg-base-100 rounded-box z-[1] w-52 py-2 right-0 m-1 px-5 shadow">
                         <h5 className="text-base font-bold">1 Items in Wishlist</h5>
