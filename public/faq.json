@@ -1,0 +1,27 @@
+[
+  {
+    "faq_id": 1,
+    "faq_question": "Do you sell official Apple products in Bangladesh?",
+    "faq_answer": "Gadget Heaven is not an authorized reseller but also sells official Apple products, including iPhones, MacBooks, and iPads."
+  },
+  {
+    "faq_id": 2,
+    "faq_question": "What types of laptops do you offer?",
+    "faq_answer": "We offer a lot of collections of laptops from top brands like HP, Dell, Lenovo, Asus, and Apple. Our collection caters to all budgets and needs, including gaming laptops."
+  },
+  {
+    "faq_id": 3,
+    "faq_question": "Can I purchase products online?",
+    "faq_answer": "Yes, you can purchase products from our e-commerce website, and we offer fast delivery across Bangladesh."
+  },
+  {
+    "faq_id": 4,
+    "faq_question": "Do you provide warranties on your products?",
+    "faq_answer": "Yes, all products come with official warranties, so you can shop confidently at Gadget Heaven."
+  },
+  {
+    "faq_id": 5,
+    "faq_question": "What payment methods are accepted?",
+    "faq_answer": "We offer various payment options, including cash on delivery, credit card payments, and installment plans for your convenience."
+  }
+]

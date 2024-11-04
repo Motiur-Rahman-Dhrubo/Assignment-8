@@ -28,7 +28,8 @@ const router = createBrowserRouter([
       },
       {
         path: "/faq",
-        element: <Faq></Faq>
+        element: <Faq></Faq>,
+        loader: () => fetch ('/public/faq.json'),
       },
       {
         path: "/statistics",
