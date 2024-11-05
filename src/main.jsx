@@ -17,6 +17,7 @@ const router = createBrowserRouter([
     path: "/",
     element: <Root></Root>,
     errorElement: <ErrorPage></ErrorPage>,
+    loader: () => fetch('/gadgets.json'),
     children: [
       {
         path: "/",

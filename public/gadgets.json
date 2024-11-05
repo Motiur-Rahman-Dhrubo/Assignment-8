@@ -1,0 +1,156 @@
+[
+  {
+    "product_id": 1,
+    "product_title": "Convertible Laptop",
+    "product_image": "https://i.ibb.co.com/sjbqHLf/Convertible-Laptop.png",
+    "category": "computers",
+    "price": 1100,
+    "description": "Versatile 2-in-1 laptop for work and play.",
+    "Specification": ["16GB RAM", "512GB SSD", "Intel i5 Processor"],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 2,
+    "product_title": "Pro Smartwatch",
+    "product_image": "https://i.ibb.co.com/dKk7KfN/Pro-Smartwatch.png",
+    "category": "smart watches",
+    "price": 300,
+    "description": "Advanced smartwatch with fitness tracking and notifications.",
+    "Specification": ["Heart Rate Monitor", "GPS", "Water Resistant"],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 3,
+    "product_title": "Ultra Slim Laptop",
+    "product_image": "https://i.ibb.co.com/yPpfM18/Ultra-Slim-Laptop.png",
+    "category": "computers",
+    "price": 1200,
+    "description": "A high-performance laptop with sleek design and powerful specs.",
+    "Specification": ["16GB RAM", "512GB SSD", "Intel i7 Processor"],
+    "availability": false,
+    "rating": 4.8
+  },
+  {
+    "product_id": 4,
+    "product_title": "Portable Gaming Laptop",
+    "product_image": "https://i.ibb.co.com/rfpHbbW/Portable-Gaming-Laptop.png",
+    "category": "computers",
+    "price": 1300,
+    "description": "Gaming laptop with RGB lighting and high-end specs.",
+    "Specification": ["16GB RAM", "1TB SSD", "RTX 3060"],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 5,
+    "product_title": "Portable Charger 10000mAh",
+    "product_image": "https://i.ibb.co.com/W2fFyWH/Portable-Charger-10000m-Ah.png",
+    "category": "chargers",
+    "price": 60,
+    "description": "Portable charger with fast charging capabilities.",
+    "Specification": ["10000mAh Capacity", "USB-C and USB-A"],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": 6,
+    "product_title": "Student Laptop",
+    "product_image": "https://i.ibb.co.com/qR9zwYp/Student-Laptop.png",
+    "category": "computers",
+    "price": 600,
+    "description": "Affordable laptop for students with all essential features.",
+    "Specification": ["8GB RAM", "128GB SSD", "Intel i3 Processor"],
+    "availability": false,
+    "rating": 4.3
+  },
+  {
+    "product_id": 7,
+    "product_title": "Compact Power Bank",
+    "product_image": "https://i.ibb.co.com/CvqtrF4/Compact-Power-Bank.png",
+    "category": "power banks",
+    "price": 70,
+    "description": "Compact power bank with reliable battery life.",
+    "Specification": ["5000mAh Capacity", "Lightweight Design"],
+    "availability": true,
+    "rating": 4.1
+  },
+  {
+    "product_id": 8,
+    "product_title": "Gaming Desktop",
+    "product_image": "https://i.ibb.co.com/NLTPc6Y/Gaming-Desktop.png",
+    "category": "computers",
+    "price": 1500,
+    "description": "A gaming desktop with the latest graphics card and fast processor.",
+    "Specification": ["32GB RAM", "1TB SSD", "RTX 3080"],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 9,
+    "product_title": "Business Laptop",
+    "product_image": "https://i.ibb.co.com/sK0K7Zd/Business-Laptop.png",
+    "category": "computers",
+    "price": 950,
+    "description": "Lightweight laptop perfect for business and travel.",
+    "Specification": ["8GB RAM", "256GB SSD", "Intel i5 Processor"],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": 10,
+    "product_title": "Smartphone X10",
+    "product_image": "https://i.ibb.co.com/XJv25QW/Smartphone-X10.png",
+    "category": "phones",
+    "price": 800,
+    "description": "High-end smartphone with a stunning display and fast performance.",
+    "Specification": ["128GB Storage", "5G Connectivity", "Dual SIM"],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 11,
+    "product_title": "Budget Smartphone",
+    "product_image": "https://i.ibb.co.com/JqbCt3v/Budget-Smartphone.png",
+    "category": "phones",
+    "price": 150,
+    "description": "Affordable smartphone with all the basic features.",
+    "Specification": ["64GB Storage", "4G Connectivity", "Single SIM"],
+    "availability": true,
+    "rating": 4.3
+  },
+  {
+    "product_id": 12,
+    "product_title": "Basic Smartwatch",
+    "product_image": "https://i.ibb.co.com/Fnfrn4L/Basic-Smartwatch.png",
+    "category": "smart watches",
+    "price": 80,
+    "description": "Entry-level smartwatch with essential features.",
+    "Specification": ["Step Counter", "Sleep Tracking"],
+    "availability": false,
+    "rating": 4.0
+  },
+  {
+    "product_id": 13,
+    "product_title": "High-Speed Wall Charger",
+    "product_image": "https://i.ibb.co.com/CKCQwNG/High-Speed-Wall-Charger.png",
+    "category": "chargers",
+    "price": 55,
+    "description": "Wall charger with fast charging support.",
+    "Specification": ["USB-C PD", "18W Output"],
+    "availability": true,
+    "rating": 4.2
+  },
+  {
+    "product_id": 14,
+    "product_title": "Heavy Duty Power Bank",
+    "product_image": "https://i.ibb.co.com/LZ93MKq/Heavy-Duty-Power-Bank.png",
+    "category": "power banks",
+    "price": 90,
+    "description": "High-capacity power bank for extended use.",
+    "Specification": ["20000mAh Capacity", "Multiple Ports"],
+    "availability": true,
+    "rating": 4.5
+  }
+]

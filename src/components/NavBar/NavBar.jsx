@@ -9,6 +9,7 @@ const NavBar = () => {
     const isHomePage = location.pathname === "/";
 
     const navbarBgColor = isHomePage ? "bg-[#9538E2]" : "bg-white";
+    const navBgColor = isHomePage ? "bg-[#F7F7F7]" : "bg-white";
     const logoColor = isHomePage ? "text-white" : "text-[#0B0B0B]";
     const linkColor = isHomePage ? "text-[#D7DDE4]" : "text-[#545454]";
 
@@ -20,8 +21,8 @@ const NavBar = () => {
     </>
 
     return (
-        <nav className="w-full bg-white">
-            <div className={`navbar w-11/12 mx-auto mt-5 rounded-t-2xl pb-5 ${navbarBgColor}`}>
+        <nav className={`w-full ${navBgColor} pt-5`}>
+            <div className={`navbar w-11/12 mx-auto rounded-t-2xl pb-5 ${navbarBgColor}`}>
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost md:hidden">
