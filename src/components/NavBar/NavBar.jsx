@@ -1,9 +1,16 @@
 import { IoMenu } from "react-icons/io5";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import { IoCartOutline } from "react-icons/io5";
 import { FaRegHeart } from "react-icons/fa";
 
 const NavBar = () => {
+
+    const location = useLocation();
+    const isHomePage = location.pathname === "/";
+
+    const navbarBgColor = isHomePage ? "bg-[#9538E2]" : "bg-white";
+    const logoColor = isHomePage ? "text-white" : "text-[#0B0B0B]";
+    const linkColor = isHomePage ? "text-[#D7DDE4]" : "text-[#545454]";
 
     const links = <>
         <li><NavLink className='py-1 px-3' to="/">Home</NavLink></li>
@@ -13,8 +20,8 @@ const NavBar = () => {
     </>
 
     return (
-        <nav className="bg-white w-full">
-            <div className="navbar w-11/12 mx-auto py-5">
+        <nav className="w-full bg-white">
+            <div className={`navbar w-11/12 mx-auto mt-5 rounded-t-2xl pb-5 ${navbarBgColor}`}>
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost md:hidden">
@@ -26,10 +33,10 @@ const NavBar = () => {
                             {links}
                         </ul>
                     </div>
-                    <NavLink to="/" className="text-xl font-bold text-[#0B0B0B]">Gadget Heaven</NavLink>
+                    <NavLink to="/" className={`text-xl font-bold ${logoColor}`}>Gadget Heaven</NavLink>
                 </div>
                 <div className="navbar-center hidden md:flex">
-                    <ul className="menu menu-horizontal text-base font-medium gap-2 lg:gap-4 text-[#545454]">
+                    <ul className={`menu menu-horizontal text-base font-medium gap-2 lg:gap-4 ${linkColor}`}>
                         {links}
                     </ul>
                 </div>
