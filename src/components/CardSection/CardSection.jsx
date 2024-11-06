@@ -27,7 +27,7 @@ const CardSection = () => {
                                 <h4 className="text-[#09080F] text-2xl font-semibold mt-6">{gadget.product_title}</h4>
                                 <p className="font-medium text-xl mt-3 text-[#6B6B6F] grow">Price: {gadget.price}$</p>
                                 <div className="mt-4">
-                                    <Link to={`/product/${gadget.product_id}`} className="text-lg font-semibold text-[#8433C7] p-[12px_22px] border-2 border-[#8433C7] rounded-full bg-white hover:bg-[#D9D9D9]">View Details</Link>
+                                    <Link to={`/product/${gadget.product_id}`} className="text-lg font-semibold text-[#8433C7] p-[12px_22px] border-2 inline-block border-[#8433C7] rounded-full bg-white hover:bg-[#D9D9D9]">View Details</Link>
                                 </div>
                             </div>
                         ))}

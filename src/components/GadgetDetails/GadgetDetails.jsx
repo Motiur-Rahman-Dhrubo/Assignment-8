@@ -8,7 +8,7 @@ import { cardData } from "../Root/Root";
 
 const GadgetDetails = () => {
 
-    const { addToWishList, wishlist } = useContext(cardData);
+    const { addToWishList, wishlist, addToCart } = useContext(cardData);
 
     const wantedGadget = useLoaderData();
 
@@ -57,7 +57,7 @@ const GadgetDetails = () => {
                             <p className="text-sm font-medium text-[#38373D] bg-[#F2F2F3] p-[7px_14px] rounded-full">{rating}</p>
                         </div>
                         <div className="flex gap-4 mt-4">
-                            <button className="flex gap-3 text-white font-bold hover:bg-[#D9D9D9] text-lg bg-[#8E36D7] rounded-full p-[11px_22px] items-center">Add To Card <IoCartOutline /></button>
+                            <button onClick={() => addToCart(wantedGadget)} className="flex gap-3 text-white font-bold hover:bg-[#D9D9D9] text-lg bg-[#8E36D7] rounded-full p-[11px_22px] items-center">Add To Card <IoCartOutline /></button>
                             <button onClick={() => addToWishList(wantedGadget)} disabled={isInWishlist} className={`text-[#343434] border rounded-full font-bold text-lg px-[22px] ${isInWishlist ? 'bg-[#6B6B6F]' : 'bg-white hover:bg-[#D9D9D9]'}`}><FaRegHeart /></button>
                         </div>
                     </div>
