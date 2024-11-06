@@ -11,6 +11,7 @@ import Home from './components/Home/Home';
 import Dashboard from './components/Dashboard/Dashboard';
 import Faq from './components/Faq/Faq';
 import Statistics from './components/Statistics/Statistics';
+import GadgetDetails from './components/GadgetDetails/GadgetDetails';
 
 const router = createBrowserRouter([
   {
@@ -30,12 +31,19 @@ const router = createBrowserRouter([
       {
         path: "/faq",
         element: <Faq></Faq>,
-        loader: () => fetch ('/faqs.json'),
+        loader: () => fetch('/faqs.json'),
       },
       {
         path: "/statistics",
         element: <Statistics></Statistics>
       },
+      {
+        path: "/product/:productId",
+        element: <GadgetDetails></GadgetDetails>,
+        loader: ({ params }) => fetch('/gadgets.json')
+        .then(response => response.json())
+        .then(gadgets => gadgets.find(item => item.product_id === parseInt(params.productId)))
+      }
     ]
   },
 ]);

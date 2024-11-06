@@ -6,7 +6,7 @@
     "category": "computers",
     "price": 1100,
     "description": "Versatile 2-in-1 laptop for work and play.",
-    "Specification": ["16GB RAM", "512GB SSD", "Intel i5 Processor"],
+    "Specifications": ["16GB RAM", "512GB SSD", "Intel i5 Processor"],
     "availability": true,
     "rating": 4.6
   },
@@ -17,7 +17,7 @@
     "category": "smart watches",
     "price": 300,
     "description": "Advanced smartwatch with fitness tracking and notifications.",
-    "Specification": ["Heart Rate Monitor", "GPS", "Water Resistant"],
+    "Specifications": ["Heart Rate Monitor", "GPS", "Water Resistant"],
     "availability": true,
     "rating": 4.6
   },
@@ -28,7 +28,7 @@
     "category": "computers",
     "price": 1200,
     "description": "A high-performance laptop with sleek design and powerful specs.",
-    "Specification": ["16GB RAM", "512GB SSD", "Intel i7 Processor"],
+    "Specifications": ["16GB RAM", "512GB SSD", "Intel i7 Processor"],
     "availability": false,
     "rating": 4.8
   },
@@ -39,7 +39,7 @@
     "category": "computers",
     "price": 1300,
     "description": "Gaming laptop with RGB lighting and high-end specs.",
-    "Specification": ["16GB RAM", "1TB SSD", "RTX 3060"],
+    "Specifications": ["16GB RAM", "1TB SSD", "RTX 3060"],
     "availability": true,
     "rating": 4.7
   },
@@ -50,7 +50,7 @@
     "category": "chargers",
     "price": 60,
     "description": "Portable charger with fast charging capabilities.",
-    "Specification": ["10000mAh Capacity", "USB-C and USB-A"],
+    "Specifications": ["10000mAh Capacity", "USB-C and USB-A"],
     "availability": true,
     "rating": 4.4
   },
@@ -61,7 +61,7 @@
     "category": "computers",
     "price": 600,
     "description": "Affordable laptop for students with all essential features.",
-    "Specification": ["8GB RAM", "128GB SSD", "Intel i3 Processor"],
+    "Specifications": ["8GB RAM", "128GB SSD", "Intel i3 Processor"],
     "availability": false,
     "rating": 4.3
   },
@@ -72,7 +72,7 @@
     "category": "power banks",
     "price": 70,
     "description": "Compact power bank with reliable battery life.",
-    "Specification": ["5000mAh Capacity", "Lightweight Design"],
+    "Specifications": ["5000mAh Capacity", "Lightweight Design"],
     "availability": true,
     "rating": 4.1
   },
@@ -83,7 +83,7 @@
     "category": "computers",
     "price": 1500,
     "description": "A gaming desktop with the latest graphics card and fast processor.",
-    "Specification": ["32GB RAM", "1TB SSD", "RTX 3080"],
+    "Specifications": ["32GB RAM", "1TB SSD", "RTX 3080"],
     "availability": true,
     "rating": 4.7
   },
@@ -94,7 +94,7 @@
     "category": "computers",
     "price": 950,
     "description": "Lightweight laptop perfect for business and travel.",
-    "Specification": ["8GB RAM", "256GB SSD", "Intel i5 Processor"],
+    "Specifications": ["8GB RAM", "256GB SSD", "Intel i5 Processor"],
     "availability": true,
     "rating": 4.5
   },
@@ -105,7 +105,7 @@
     "category": "phones",
     "price": 800,
     "description": "High-end smartphone with a stunning display and fast performance.",
-    "Specification": ["128GB Storage", "5G Connectivity", "Dual SIM"],
+    "Specifications": ["128GB Storage", "5G Connectivity", "Dual SIM"],
     "availability": true,
     "rating": 4.9
   },
@@ -116,7 +116,7 @@
     "category": "phones",
     "price": 150,
     "description": "Affordable smartphone with all the basic features.",
-    "Specification": ["64GB Storage", "4G Connectivity", "Single SIM"],
+    "Specifications": ["64GB Storage", "4G Connectivity", "Single SIM"],
     "availability": true,
     "rating": 4.3
   },
@@ -127,7 +127,7 @@
     "category": "smart watches",
     "price": 80,
     "description": "Entry-level smartwatch with essential features.",
-    "Specification": ["Step Counter", "Sleep Tracking"],
+    "Specifications": ["Step Counter", "Sleep Tracking"],
     "availability": false,
     "rating": 4.0
   },
@@ -138,7 +138,7 @@
     "category": "chargers",
     "price": 55,
     "description": "Wall charger with fast charging support.",
-    "Specification": ["USB-C PD", "18W Output"],
+    "Specifications": ["USB-C PD", "18W Output"],
     "availability": true,
     "rating": 4.2
   },
@@ -149,7 +149,7 @@
     "category": "power banks",
     "price": 90,
     "description": "High-capacity power bank for extended use.",
-    "Specification": ["20000mAh Capacity", "Multiple Ports"],
+    "Specifications": ["20000mAh Capacity", "Multiple Ports"],
     "availability": true,
     "rating": 4.5
   }

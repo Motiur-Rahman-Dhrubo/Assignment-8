@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { cardData } from "../Root/Root";
+import { Link } from "react-router-dom";
 
 const CardSection = () => {
     const { selectedCategory, setSelectedCategory, filteredGadgets, categories } = useContext(cardData)
@@ -19,7 +20,6 @@ const CardSection = () => {
                         ))}
                     </div>
 
-
                     <div className="w-[78%] grid grid-cols-3 gap-6 h-min">
                         {filteredGadgets.map(gadget => (
                             <div key={gadget.product_id} className="bg-white p-5 rounded-2xl flex flex-col">
@@ -27,7 +27,7 @@ const CardSection = () => {
                                 <h4 className="text-[#09080F] text-2xl font-semibold mt-6">{gadget.product_title}</h4>
                                 <p className="font-medium text-xl mt-3 text-[#6B6B6F] grow">Price: {gadget.price}$</p>
                                 <div className="mt-4">
-                                    <button className="text-lg font-semibold text-[#8433C7] p-[12px_22px] border-2 border-[#8433C7] rounded-full bg-white hover:bg-[#D9D9D9]">View Details</button>
+                                    <Link to={`/product/${gadget.product_id}`} className="text-lg font-semibold text-[#8433C7] p-[12px_22px] border-2 border-[#8433C7] rounded-full bg-white hover:bg-[#D9D9D9]">View Details</Link>
                                 </div>
                             </div>
                         ))}
