@@ -12,7 +12,7 @@ const Statistics = () => {
             </div>
             <div className="bg-[#F7F7F7] w-full py-20">
                 <div className="w-11/12 mx-auto">
-                    <h3 className='bg-white p-6 rounded-2xl font-bold text-4xl text-[#545454]'>No Data To Show Statistics</h3>
+                    <h3 className='bg-white p-6 rounded-2xl font-bold text-4xl text-[#545454] text-center'>No Data To Show Statistics</h3>
                 </div>
             </div>
         </div>

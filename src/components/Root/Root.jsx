@@ -4,11 +4,16 @@ import NavBar from "../NavBar/NavBar";
 import { createContext } from "react";
 import { useState } from 'react';
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 export const cardData = createContext();
 
 const Root = () => {
 
     const gadgets = useLoaderData();
+
+    const [wishlist, setWishlist] = useState([]);
 
     const [selectedCategory, setSelectedCategory] = useState("All Product");
 
@@ -18,11 +23,23 @@ const Root = () => {
         ? gadgets
         : gadgets.filter(gadget => gadget.category === selectedCategory);
 
+    
+
+    const addToWishList = (gadget) => {
+        setWishlist(prevWishlist => [...prevWishlist, gadget]);
+        toast.success(`${gadget.product_title} has been added to your wishlist!`, {
+            position: "top-center",
+            autoClose: 3000
+        });
+    };
+
     const contextValue = {
         selectedCategory,
         setSelectedCategory,
         filteredGadgets,
-        categories
+        categories,
+        addToWishList,
+        wishlist,
     };
 
     return (
@@ -31,6 +48,7 @@ const Root = () => {
                 <NavBar></NavBar>
                 <Outlet></Outlet>
                 <Footer></Footer>
+                <ToastContainer />
             </cardData.Provider>
         </div>
     );

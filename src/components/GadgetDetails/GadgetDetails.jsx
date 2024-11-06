@@ -3,10 +3,19 @@ import Helmet from 'react-helmet';
 import ReactStars from "react-rating-stars-component";
 import { IoCartOutline } from "react-icons/io5";
 import { FaRegHeart } from "react-icons/fa";
+import { useContext } from "react";
+import { cardData } from "../Root/Root";
 
 const GadgetDetails = () => {
+
+    const { addToWishList, wishlist } = useContext(cardData);
+
     const wantedGadget = useLoaderData();
+
+    const isInWishlist = wishlist.some(item => item.product_id === wantedGadget.product_id);
+    
     const { product_image, product_title, category, price, description, Specifications, availability, rating } = wantedGadget;
+   
     return (
         <div>
             <Helmet>
@@ -21,6 +30,7 @@ const GadgetDetails = () => {
                     </div>
                     <div className="w-8/12">
                         <h2 className="text-[#09080F] text-2xl font-semibold">{product_title}</h2>
+                        <p className="text-2xl font-semibold text-[#3A393F] mt-3">Category: {category}</p>
                         <p className="text-xl font-semibold text-[#3A393F] mt-3">Price: $ {price}</p>
                         <span className={`p-[6px_14px] text-sm font-medium rounded-full border inline-block mt-3 ${availability ? 'bg-[#EAF5E6] , text-[#309C08] , border-[#309C08]' : 'bg-red-100 , text-red-700 , border-red-600' }`}>
                             {availability ? 'In Stock' : 'Not Available'}
@@ -48,7 +58,7 @@ const GadgetDetails = () => {
                         </div>
                         <div className="flex gap-4 mt-4">
                             <button className="flex gap-3 text-white font-bold hover:bg-[#D9D9D9] text-lg bg-[#8E36D7] rounded-full p-[11px_22px] items-center">Add To Card <IoCartOutline /></button>
-                            <button className="text-[#343434] border hover:bg-[#D9D9D9] border-[#DFDFE3] rounded-full font-bold text-lg px-[22px]"><FaRegHeart /></button>
+                            <button onClick={() => addToWishList(wantedGadget)} disabled={isInWishlist} className={`text-[#343434] border rounded-full font-bold text-lg px-[22px] ${isInWishlist ? 'bg-[#6B6B6F]' : 'bg-white hover:bg-[#D9D9D9]'}`}><FaRegHeart /></button>
                         </div>
                     </div>
                 </div>
