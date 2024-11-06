@@ -160,7 +160,7 @@ const Root = () => {
             <button className="btn" onClick={() => document.getElementById('my_modal_1').showModal()}>open modal</button>
             <dialog id="my_modal_1" className="modal">
                 <div className="modal-box">
-                    <img src="/public/assets/Group.png"  alt="purchase done" className="mx-auto w-16 h-16"/>
+                    <img src="/assets/Group.png"  alt="purchase done" className="mx-auto w-16 h-16"/>
                     <h3 className="font-bold text-[#09080F] text-2xl text-center mt-6">Payment Successfully</h3>
                     <p className="text-[#6B6B6F] font-medium text-base text-center mt-3">Thanks for purchasing.</p>
                     <p className="text-[#6B6B6F] font-medium text-base text-center mt-3">Total: {totalCartPriceForModal}</p>
