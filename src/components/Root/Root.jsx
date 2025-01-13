@@ -157,7 +157,6 @@ const Root = () => {
                 <ToastContainer />
             </cardData.Provider>
 
-            <button className="btn" onClick={() => document.getElementById('my_modal_1').showModal()}>open modal</button>
             <dialog id="my_modal_1" className="modal">
                 <div className="modal-box">
                     <img src="/assets/Group.png"  alt="purchase done" className="mx-auto w-16 h-16"/>
